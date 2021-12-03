@@ -382,10 +382,6 @@ footer {
   color: var(--color-btn-text-light);
 }
 
-.portfolio__container {
-  padding: 9.4rem 0;
-}
-
 .portfolio__heading {
   display: none;
 }
