@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header__container">
         <a href="#" title="WebStudio logo" class="logo logo--black">
           <span>Web</span>Studio
         </a>
-        <nav class="nav">
+        <nav class="header__nav nav">
           <ul class="nav__links">
             <li class="nav__links-item">
               <a
-                href="./index.html"
+                href="../index.html"
                 title="Cтудия"
                 class="nav__link nav__link--active"
                 >Cтудия</a
@@ -41,22 +41,22 @@
               <a href="#" title="Контакты" class="nav__link">Контакты</a>
             </li>
           </ul>
-          <ul class="nav__contacts">
-            <li class="nav__contacts-item">
-              <a
-                href="mailto:info@devstudio.com"
-                title="Email"
-                class="nav__email"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="nav__contacts-item">
-              <a href="tel:+380961111111" title="Phone" class="nav__phone"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
         </nav>
+        <ul class="header__contacts">
+          <li class="header__contacts-item">
+            <a
+              href="mailto:info@devstudio.com"
+              title="Email"
+              class="header__email"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header__contacts-item">
+            <a href="tel:+380961111111" title="Phone" class="header__phone"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -147,8 +147,10 @@
                 alt="Игорь Демьяненко"
                 class="member__photo"
               />
-              <h3 class="member__name heading-tertiaty">Игорь Демьяненко</h3>
-              <p class="member__position">Product Designer</p>
+              <div class="member__text-box">
+                <h3 class="member__name heading-tertiaty">Игорь Демьяненко</h3>
+                <p class="member__position">Product Designer</p>
+              </div>
             </li>
             <li class="team__member member">
               <img
@@ -156,8 +158,10 @@
                 alt="Ольга Репина"
                 class="member__photo"
               />
-              <h3 class="member__name heading-tertiaty">Ольга Репина</h3>
-              <p class="member__position">Frontend Developer</p>
+              <div class="member__text-box">
+                <h3 class="member__name heading-tertiaty">Ольга Репина</h3>
+                <p class="member__position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team__member member">
               <img
@@ -165,8 +169,10 @@
                 alt="Николай Тарасов"
                 class="member__photo"
               />
-              <h3 class="member__name heading-tertiaty">Николай Тарасов</h3>
-              <p class="member__position">Marketing</p>
+              <div class="member__text-box">
+                <h3 class="member__name heading-tertiaty">Николай Тарасов</h3>
+                <p class="member__position">Marketing</p>
+              </div>
             </li>
             <li class="team__member member">
               <img
@@ -174,8 +180,10 @@
                 alt="Михаил Ермаков"
                 class="member__photo"
               />
-              <h3 class="member__name heading-tertiaty">Михаил Ермаков</h3>
-              <p class="member__position">UI Designer</p>
+              <div class="member__text-box">
+                <h3 class="member__name heading-tertiaty">Михаил Ермаков</h3>
+                <p class="member__position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
